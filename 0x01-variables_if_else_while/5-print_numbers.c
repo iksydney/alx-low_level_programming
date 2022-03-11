@@ -2,7 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main : Prints base 10 numbers
+ * main -  Prints base ten real  number and all
+ *
  * @void: Empty parameter list for main
  *
  * Description: Prints number 0-9
