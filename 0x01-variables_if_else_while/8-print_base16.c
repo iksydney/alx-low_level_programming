@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main: Prints base 16 numbers in the output
+ * main - Prints base 16
  * @void: Empty parameter list for main.
  *
- * Description: prints all  hexadecimals
+ * Description: Prints all hexadecimals
  *
  * Return: 0 for success
  */
