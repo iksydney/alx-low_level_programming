@@ -1,21 +1,23 @@
 #include <stdio.h>
 /**
- * print alphabet_x10 - a function that prints 10 times the alphabet
+ * main - putchar printing
  *
- * Return: x10 a-z
+ * Description - program that prints _putchar, followed by a new line
+ *
+ *
+ *Return: 0 for success
  */
-void print_alphabet_x10(void)
+int main(void)
 {
-	int n, i;
-	i = 0;
+	char s[] = "_putchar";
+	int i = 0;
 
-	while (i < 10)
+	whle (s[i] != '\0')
 	{
-		for (n = 'a'; n <= 'z'; n++)
-		{
-			_putchar(n);
-		}
+		_putchar(s[i]);
 		i++;
-		_putchar('\n');
 	}
+	_putchar(10);
+
+	return (0);
 }
