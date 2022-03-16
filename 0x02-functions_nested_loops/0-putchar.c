@@ -15,7 +15,7 @@ int main(void)
 	whle (s[i] != '\0')
 	{
 		_putchar(s[i]);
-		i++
+		i++;
 	}
 	_putchar(10);
 
