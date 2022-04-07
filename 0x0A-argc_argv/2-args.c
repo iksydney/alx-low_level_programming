@@ -6,7 +6,7 @@
  * @argv: argument vector of pointers to string
  * Return: always 0 for success
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
 	int i;
 
