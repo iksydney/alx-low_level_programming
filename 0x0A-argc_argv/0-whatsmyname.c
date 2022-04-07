@@ -2,14 +2,12 @@
 #include <stdlib.h>
 
 /**
- * main: -  Entry point
+ * main - Entry point
  *
- * @argc:-   the number of arguments passed to the function
- * @argv:-  The argument vector of pointers to strings
- *
- * Reurn: Always 0 for (success)
+ * @argc: Counts the number of parameters that go into main
+ * @argv: Pointer of array of pointers containing strings entering main
+ * Return: Always 0 (Success)
  */
-
 int main(int argc, char **argv)
 {
 	if (argc > 0)
