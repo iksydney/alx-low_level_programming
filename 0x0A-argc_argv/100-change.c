@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		puts("Error");
 		return (1);
 	}
-	a = atoi(argv[i]);
+	a = atoi(argv[1]);
 	if (a <= 0)
 	{
 		puts("0");
@@ -32,7 +32,6 @@ int main(int argc, char *argv[])
 			t = a / c[i];
 			a -= t * c[i];
 			n += t;
-
 			if (a == 0)
 				break;
 		}
